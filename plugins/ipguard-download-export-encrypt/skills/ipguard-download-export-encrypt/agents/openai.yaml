@@ -1,0 +1,6 @@
+interface:
+  display_name: "IP-guard 加密交付"
+  short_description: "预览、下载、导出加密与维护排障"
+  default_prompt: "Use $ipguard-download-export-encrypt to implement or troubleshoot IP-guard preview/download/export encryption and the local maintenance tool."
+policy:
+  allow_implicit_invocation: true

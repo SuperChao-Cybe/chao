@@ -1,0 +1,20 @@
+{
+  "name": "ipguard-marketplace",
+  "interface": {
+    "displayName": "IP-guard Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "ipguard-download-export-encrypt",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ipguard-download-export-encrypt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

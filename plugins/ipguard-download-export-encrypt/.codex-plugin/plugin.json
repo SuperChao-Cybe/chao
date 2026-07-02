@@ -1,0 +1,20 @@
+{
+  "name": "ipguard-download-export-encrypt",
+  "version": "1.0.0",
+  "description": "IP-guard preview, download and export encryption skill package",
+  "author": {
+    "name": "LiangChao Weng"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "IP-guard 加密交付",
+    "shortDescription": "预览、下载、导出加密与维护排障",
+    "longDescription": "封装 IP-guard 预览加密、下载加密、导出加密与本地维护排障的 Codex skill 插件。",
+    "developerName": "LiangChao Weng",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Use $ipguard-download-export-encrypt to implement or troubleshoot IP-guard preview/download/export encryption."
+    ]
+  }
+}
